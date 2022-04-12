@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(#F7DC6F, #F5B041, #E67E22,#BA4A00);
+}
+
+.container {
+    max-width: 450px;
+    margin: 10vh auto 0 auto;
+    border: 25px solid #131312;
+    border-radius: 25px;
+}
+
+#display {
+    background-color: white;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 8px 10px 8px 8px;
+    font-size: 80px;
+    border: 10px solid #131312;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#c{
+    background-color: #4b9093;
+    color: black;
+}
+
+.button {
+    border: 9px solid #131312;
+    line-height: 100px;
+    text-align: center;
+    font-size: 45px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: #000;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#igual {
+    background-color: #4b9093;
+    color: white;
+}
